@@ -17,20 +17,23 @@ public class QuotePageTest {
     }
 
     @Test
-    public void testNameField() {
+    public void testTextField() {
         quotePage.nameField().sendKeys("John Doe");
         quotePage.phoneField().sendKeys("1234567890");
         quotePage.emailField().sendKeys("john.doe@email.com");
     }
 
-    // @Test
-    // public void testEmailField() {
-    // quotePage.emailField().sendKeys("john.doe@email.com");
-    // }
-    // @Test
-    // public void testPhoneField() {
-    // quotePage.phoneField().sendKeys("1234567890");
-    // }
+    /*
+     * @Test
+     * public void testEmailField() {
+     * quotePage.emailField().sendKeys("john.doe@email.com");
+     * }
+     * 
+     * @Test
+     * public void testPhoneField() {
+     * quotePage.phoneField().sendKeys("1234567890");
+     * }
+     */
 
     // similar test cases for the other fields on the quote page
 
